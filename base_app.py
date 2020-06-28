@@ -38,6 +38,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import nltk
+nltk.download()
 from nltk.tokenize import word_tokenize, TreebankWordTokenizer 
 from nltk.stem import WordNetLemmatizer 
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
